@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("kuliah praktikum big data Pertemuan 09")
 st.write("azizah amelia")
-st.write("# Heading 1")
+st.write("# PERTEMUAN 09")
 
 pilih1 = st.checkbox('ya')
 pilih2 = st.checkbox('tidak')
@@ -18,4 +18,12 @@ st.write(minuman)
 
 bayar = st.multiselect('metode pembayaran:',
                       ['Cash/Tunai', 'OVO', 'GoPay', 'Debit'])
-st.write(bayar)
+st.write("bayar")
+
+st.write("## PERTEMUAN 10")
+'''
+kinerja unit
+'''
+st.metric("kinerja", 40, -1)
+st.metric("response time", 30, 20)
+
