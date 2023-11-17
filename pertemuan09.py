@@ -27,3 +27,4 @@ kinerja unit
 st.metric("kinerja", 40, -1)
 st.metric("response time", 30, 20)
 
+st.metric("saham", 60, 15)
